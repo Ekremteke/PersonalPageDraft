@@ -59,4 +59,3 @@ const {
   
   const console = document.getElementById("tests");
   prettify.toHTML(run(), console);
-  
