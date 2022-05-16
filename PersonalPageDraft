@@ -81,7 +81,7 @@
                   <p id="a_little_video">Little video about Code Your Future</p>
               <p>Here is a little video where you can see what is Code Your Future and how much great is this community. </p>
   </article>
-               
+  <script src="JavaScript.js"></script>
         <section class="video">
              <div>
                <h3>Little video about Code Your Future</h3>
@@ -92,7 +92,7 @@
                 </main>
                 
             <footer class="c-site-footer">The end of the page</footer>
-            <script src="JavaScript.js"></script>
+            
     </body>
     
 </html>
