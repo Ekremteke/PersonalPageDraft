@@ -1,3 +1,4 @@
+html,
 body {
   margin: 0;
   height: 100%;
@@ -10,7 +11,7 @@ body {
 .jest-lite-report__errors { display:none }
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
+
  p{
 }
   h1{ 
@@ -115,18 +116,17 @@ position: center;
 #logo{
 width: 100px;
 height: 100px;
-bacground-color: chocolate;
+background-color: chocolate;
 position:fixed;
 top: 10px;
 left: 10px;
 float: left;
 border-radius: 50px;
-margin: auto;
 }
 #social{
 width: 100px;
 height: 90px;
-bacground-color: chocolate;
+background-color: chocolate;
 position: relative;
 float: right;
 top: 20px;
@@ -136,7 +136,7 @@ border-radius: 50px;
   #hobbies{
  width: 200px;
 height: 200px;
-bacground-color: chocolate;
+background-color: chocolate;
 position:static;
 top: 10px;
 left: 10px;
@@ -147,7 +147,7 @@ margin: auto;
  #hobbies1{
  width: 200px;
 height: 200px;
-bacground-color: chocolate;
+background-color: chocolate;
 position:static;
 top: 10px;
 left: 10px;
@@ -158,7 +158,7 @@ margin: auto;
  #hobbies2{
  width: 200px;
 height: 200px;
-bacground-color: chocolate;
+background-color: chocolate;
 position:static;
 top: 10px;
 left: 10px;
@@ -169,7 +169,7 @@ margin: auto;
  #hobbies3{
  width: 200px;
 height: 200px;
-bacground-color: chocolate;
+background-color: chocolate;
 position:static;
 top: 10px;
 left: 10px;

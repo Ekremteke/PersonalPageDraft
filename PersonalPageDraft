@@ -92,5 +92,7 @@
                 </main>
                 
             <footer class="c-site-footer">The end of the page</footer>
+            <script src="JavaScript.js"></script>
     </body>
+    
 </html>
