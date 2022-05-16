@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+ <title id="title">Ekrem Teke Personal Page</title>
+     
+    </head>
+    <body>
+          <div>
+            <img id= "logo" src="https://i.ibb.co/kG4fsV9/1643225905798.jpg" alt="Ekrem Teke" title= "Ekrem Teke">
+          </div>
+          <div >
+            <a href="https://www.linkedin.com/in/ekrem-teke-786992201/"> <img id= "social" src="https://i.ibb.co/vQ8h45d/Linked-In-Logo-wine.png" alt="Linked-In" ></a>
+            </div>
+      
+            <div id="personal">
+              <br>
+            <header class="c-site-header"> Ekrem Teke
+            </header>
+             <nav aria-label="Main Site Links.">
+     <ul>
+          <li><a href="https://codepen.io/ekremteke/pen/BaJwomB">Home</a></li>
+          <li><a href="https://codepen.io/ekremteke/pen/BaJwomB">About Me</a></li>
+     </ul>
+     </nav>
+        <br>
+    <br>
+              <figure>
+<img id="image" src="https://i.ibb.co/5LMjv7v/20210729-181847.jpg" alt="Ekrem Teke"> 
+
+<figcaption id="img-caption">Ekrem Teke, London, UK.</figcaption>
+
+</figure>
+      </div>
+
+          <main>
+<article id="personal-info">
+        <p >Ekrem Teke is from Turkey. He was born in Ankara in 1989. He is married, and he has a son. </p>
+           
+                <h1> Ekrem's Education Life </h1>
+                         
+                <h3> <u>Bachelor Degree</u> </h3>
+               
+                <p> He graduated from Anadolu University Faculty of Business Administration in 2014.</p>
+                
+                 <h3><u> Associate Degree </u> </h3>
+                
+                <p> He graduated from Air Force Military School in 2009.</p>
+            
+            <h1> Ekrem's Hobbies</h1>
+            <p> Swimming, Cycling, Driving, Playing a Musical Instrument </p>
+             <div >
+            <img id= "hobbies" src="https://i.ibb.co/WvkNM8m/swimming.jpg" alt="Swimming">
+                <img id= "hobbies1" src="https://i.ibb.co/1d7GFgm/cycyling-1-640x360-credit-shutterstock.jpg" alt="cycyling">
+                <img id= "hobbies2" src="https://i.ibb.co/S72hXRX/image-result-for-driving-1.jpg" alt="driving">
+               <img id= "hobbies3" src="https://i.ibb.co/3sV7htb/baglama.jpg" alt="baglama">
+          </div>
+            
+             <h1> Ekrem's Family Members </h1>
+            <ul id="liste">
+              <li><b> Merve</b></li>
+              <li><strong> Yusuf</strong></li>
+            </ul>              
+              <h3 id="Merve"> Merve </h3>
+              <p>She is Ekrem's wife. She is a physical education teacher and a swimming trainer. She is 33 years old.</p>
+              
+              <h3 id="Yusuf"> Yusuf Teke </h3>
+              <p>Yusuf is Ekrem's son. He is 5 years old. He goes to reception class. He's middle name is Ertugrul.</p>
+                
+                <h1> Ekrem's Experience </h1>
+                
+                <p> He started to work in the Turkish Air Force in 2009 and left his duty in 2020 at the rank of First Lieutenant. </p>
+                <p>He served in the Supply Units of the Turkish Air Force for 10 years. He worked as a warehouse manager in cold storage and dry food warehouses for 3.5 years. For 3 years, He worked as a warehouse supervisor of clothing, durable materials, cleaning, stationery and hardware warehouses. For 3.5 years, He worked as the manager of all these warehouses.As an additional task, He chaired the cost determination commission, tender commission and procurement units for about 1 year.</p>
+                <p>He can use SAP, Office. I took food hygiene and sanitation training.</p>
+                <p>He copleted education of Introduction to Programming Using Java on March of 2022. BTK Akademy gave him a certificate.  </p>
+                
+                <h2> Now </h2>
+                <p> Ekrem move to UK on May of 2021  with his family. He goes an ESOL course for improving his Enlish. He try to learn something about IT. He try to complete Code Your Future Intro course. His would like to qualify for the code your future course.</p>
+
+                  <p id="a_little_video">Little video about Code Your Future</p>
+              <p>Here is a little video where you can see what is Code Your Future and how much great is this community. </p>
+  </article>
+               
+        <section class="video">
+             <div>
+               <h3>Little video about Code Your Future</h3>
+             <iframe src="https://www.youtube-nocookie.com/embed/jz87O1kap7s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+            </section>
+            
+                </main>
+                
+            <footer class="c-site-footer">The end of the page</footer>
+    </body>
+</html>
