@@ -76,7 +76,8 @@ height: auto;
 margin-left: auto;
 margin-right: auto;
 display: block;
-  position: relative;
+position: relative;
+transform: scaleX(-1);
 }
 #personal-info{
 font-size: auto;
