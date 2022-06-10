@@ -8,8 +8,6 @@
 
     </head>
     <body>
-
-      <div id="linklist"></div>
           <div>
             <img id= "logo" src="https://i.ibb.co/kG4fsV9/1643225905798.jpg" alt="Ekrem Teke" title= "Ekrem Teke">
           </div>
@@ -90,32 +88,27 @@
              <iframe src="https://www.youtube-nocookie.com/embed/jz87O1kap7s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
             </section>
-            
+            <ul id="linklist"></ul>
+
+            <ul id="list">List of the names</ul>
+
+<input id="names"></input>
+<br>
+<br>
+<button id="add_button">Add the name to the ist</button>
+<br>
+<br>
+<button id="facilitator_button">Display a random name from the list</button>
+<ul id="display">A random name</ul>
+
+
                 </main>
                 
             <footer class="c-site-footer">The end of the page</footer>
-          
+            
     </body>
-    <script type="text/javascript" language="javascript" src="JavaScript.js">
-      document.getElementById("Yusuf").innerHTML = "Yusuf Ertugrul Teke";
-      
-      
-      var links, name2;
-links = ['https://www.google.co.uk/', 'https://www.amazon.co.uk/', 'https://www.youtube.com/'];
-name2 = ['Google', 'Amazon', 'Youtube'];
-let element_linklist = document.getElementById('linklist');
-while (!!name2.length) {
- if(--window.LoopTrap <= 0) throw "Infinite loop.";
- let new_li = document.createElement('li');
- let new_a = document.createElement('a');
- new_a.innerText = name2.shift();
- new_a.setAttribute("href", links.shift());
-
- new_li.appendChild(new_a);
-
- element_linklist.appendChild(new_li);
-}
-
+    <script src="JavaScript.js">
     </script>
+    
     
 </html>
