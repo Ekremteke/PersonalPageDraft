@@ -59,3 +59,4 @@ const {
   
   const console = document.getElementById("tests");
   prettify.toHTML(run(), console);
+  document.getElementById("middle").innerHTML = "Yusuf is Ekrem's son. He is 6 years old. He goes to reception class. He's middle name is Ertugrul.";
