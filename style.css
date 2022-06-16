@@ -42,6 +42,9 @@ font-size: 24px;
 border-radius: 200px 50px;
 text-align: center;
 }
+#header{
+  border-bottom: 1px solid #E2E8F0;
+}
  nav aria-label{
 border-style:double;
 width: auto;
