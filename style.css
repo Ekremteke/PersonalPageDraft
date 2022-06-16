@@ -15,19 +15,19 @@ img:hover{
  p{
 }
   h1{ 
-color: blue;
+color:rgb(0, 0, 144);
 }
  h2{ 
-color: blue;
+color: rgb(0, 0, 144);
 }
  h3{ 
-color: blue;
+color: rgb(0, 0, 144);
 }
 #personal{
 border-style:double;
 width: auto;
 margin: auto;
-background-color: chocolate;
+background-color: rgb(255, 162, 95);
 }
 .c-site-header {
 border-style: double;
@@ -90,7 +90,7 @@ text-align: center;
 }
 #liste{
 margin: 0px 45%;
-color: blue;
+color: rgb(0, 0, 100);
 text-align: center;
 font-size: 18px;
 }
@@ -126,7 +126,7 @@ border-radius: 50px;
 #social{
 width: 100px;
 height: 100px;
-background-color: chocolate;
+background-color: rgb(255, 162, 95);
 position: relative;
 float: right;
 top: 20px;
@@ -177,3 +177,40 @@ float: center;
 border-radius: 50px 30px 20px 100px;
 margin: auto;
   }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.hamburger {
+  display: none;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover{
+  color: #482ff7;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}

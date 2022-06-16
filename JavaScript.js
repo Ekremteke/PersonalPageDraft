@@ -58,3 +58,32 @@ document.getElementById('facilitator_button').addEventListener('click', (event) 
   element_display.appendChild(new_li2);
 
 });
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+var array, storage;
+
+
+let element_hobbies = document.getElementById('hobbies');
+element_hobbies.setAttribute("src", 'https://i.ibb.co/WvkNM8m/swimming.jpg');
+array = [];
+array.push('https://i.ibb.co/1d7GFgm/cycyling-1-640x360-credit-shutterstock.jpg');
+array.push('https://i.ibb.co/S72hXRX/image-result-for-driving-1.jpg');
+array.push('https://i.ibb.co/3sV7htb/baglama.jpg');
+array.push('https://i.ibb.co/WvkNM8m/swimming.jpg');
+
+
+document.getElementById('hobbies').addEventListener('click', (event) => {
+  let element_hobbies2 = document.getElementById('hobbies');
+  storage = array.shift();
+  element_hobbies2.setAttribute("src", storage);
+  array.push(storage);
+
+});
