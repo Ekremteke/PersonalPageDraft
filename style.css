@@ -52,7 +52,7 @@ article{
 border-style:double;
 width: auto;
 margin: auto;
-background-color: chocolate;
+background-color: rgb(205, 207, 255);
 }
 .c-site-footer{
 border-style:double;
@@ -103,19 +103,19 @@ align-items: center;
 justify-content: space-around;
 left: 50px;
 right: 50px;
-background-color: chocolate;
+background-color: rgb(205, 207, 255);
 }
 
 .video iframe{
 height: auto;
 width: auto;
 position: center;
-  background-color: chocolate;
+  background-color: rgb(205, 207, 255);
 }
 #logo{
 width: 100px;
 height: 100px;
-background-color: chocolate;
+background-color: rgb(205, 207, 255);
 position:fixed;
 top: 10px;
 left: 30px;
@@ -135,7 +135,7 @@ border-radius: 50px;
   #hobbies{
  width: 300px;
 height: 300px;
-background-color: chocolate;
+background-color: rgb(205, 207, 255);
 position:static;
 top: 10px;
 left: 10px;
