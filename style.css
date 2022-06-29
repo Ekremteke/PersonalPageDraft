@@ -146,7 +146,7 @@ margin: auto;
  #hobbies1{
  width: 200px;
 height: 200px;
-background-color: chocolate;
+background-color: rgb(205, 207, 255);
 position:static;
 top: 10px;
 left: 10px;
@@ -157,7 +157,7 @@ margin: auto;
  #hobbies2{
  width: 200px;
 height: 200px;
-background-color: chocolate;
+background-color: rgb(205, 207, 255);
 position:static;
 top: 10px;
 left: 10px;
@@ -168,7 +168,7 @@ margin: auto;
  #hobbies3{
  width: 200px;
 height: 200px;
-background-color: chocolate;
+background-color: rgb(205, 207, 255);
 position:static;
 top: 10px;
 left: 10px;
